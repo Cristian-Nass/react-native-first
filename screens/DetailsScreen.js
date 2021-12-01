@@ -19,7 +19,7 @@ export default function DetailsScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#e4e4e4',
     alignItems: 'center',
     justifyContent: 'center',
   },
