@@ -7,6 +7,7 @@ import HomeScreen from './screens/HomeScreen';
 import DetailsScreen from './screens/DetailsScreen';
 import CounterScreen from './screens/CounterScreen';
 import ColorScreen from './screens/ColorScreen';
+import InputScreen from './screens/InputScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name="Details" component={DetailsScreen} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Color" component={ColorScreen} />
+        <Stack.Screen name="Input" component={InputScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

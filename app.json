@@ -28,6 +28,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Add counter screen"
+    "description": "Add random color"
   }
 }
